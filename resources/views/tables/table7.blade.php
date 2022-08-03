@@ -2,6 +2,10 @@
 
 @section('content')
 
+<div class="alert hide">
+    <span class="msg">Data Inserted Successfully</span>
+</div>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -122,4 +126,15 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('script')
+
+<script>
+    $('button').click(function(){
+        $('.alert').removeClass("hide")
+        $('.alert').delay(3000).hide(1500); 
+    });
+</script>
+
 @endsection

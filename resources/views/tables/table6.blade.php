@@ -2,13 +2,10 @@
 
 @section('content')
 
-<script>
-    document.getElementbyId('alertme').style.display = "block";
-</script>
-
-<div id="alertme" style="float:right">
-    <strong> Data Inserted</strong>
+<div class="alert hide">
+    <span class="msg">Data Inserted Successfully</span>
 </div>
+
 
 <div class="container">
     <div class="row justify-content-center">
@@ -76,4 +73,15 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('script')
+
+<script>
+    $('button').click(function(){
+        $('.alert').removeClass("hide")
+        $('.alert').delay(3000).hide(1500); 
+    });
+</script>
+
 @endsection
