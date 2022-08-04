@@ -48,7 +48,7 @@ class TableController extends Controller
         $t0->How_many_times = $required->form0_id33;
         $t0->Entered_id = session('user_id');
         $t0->save();
-        return redirect('table0');
+        return redirect('table0')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -64,7 +64,7 @@ class TableController extends Controller
         $t1->Npopulation_current = $required->form1_id7;
         $t1->Entered_id = session('user_id');
         $t1->save();
-        return redirect('table1');
+        return redirect('table1')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -97,7 +97,7 @@ class TableController extends Controller
         $t2->Nsbg_scheme = $required->form2_id24;
         $t2->Entered_id = session('user_id');
         $t2->save();
-        return redirect('table2');
+        return redirect('table2')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -121,7 +121,7 @@ class TableController extends Controller
         $t3->Current_status_of_work = $required->form3_id15;
         $t3->Entered_id = session('user_id');
         $t3->save();
-        return redirect('table3');
+        return redirect('table3')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -147,7 +147,7 @@ class TableController extends Controller
         $t4->P_is_toilet_use = $required->form4_id17;
         $t4->Entered_id = session('user_id');
         $t4->save();
-        return redirect('table4');
+        return redirect('table4')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -174,7 +174,7 @@ class TableController extends Controller
         $t5->Toilet_bus_shelter = $required->form5_id18;
         $t5->Entered_id = session('user_id');
         $t5->save();
-        return redirect('table5');
+        return redirect('table5')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -193,7 +193,7 @@ class TableController extends Controller
         $t6->PToilet_in_places = $required->form6_id10;
         $t6->Entered_id = session('user_id');
         $t6->save();
-        return redirect('table6');
+        return redirect('table6')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -215,7 +215,7 @@ class TableController extends Controller
         $t7->Contruction_waste = $required->form7_id13;
         $t7->Entered_id = session('user_id');
         $t7->save();
-        return redirect('table7');
+        return redirect('table7')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -255,7 +255,7 @@ class TableController extends Controller
         $t8->Is_earthworm = $required->form8_id31;
         $t8->Entered_id = session('user_id');
         $t8->save();
-        return redirect('table8');
+        return redirect('table8')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -275,7 +275,7 @@ class TableController extends Controller
         $t9->Post_in_panchayat = $required->form9_id11;
         $t9->Entered_id = session('user_id');
         $t9->save();
-        return redirect('table9');
+        return redirect('table9')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -321,7 +321,7 @@ class TableController extends Controller
         $t10->Wrenovation_work = $required->form10_id37;
         $t10->Entered_id = session('user_id');
         $t10->save();
-        return redirect('table10');
+        return redirect('table10')->with('msg','Data Inserted Successfully !');
 
     }
 
@@ -346,7 +346,7 @@ class TableController extends Controller
         $t11->Administrative_permission = $required->form11_id16;
         $t11->Entered_id = session('user_id');
         $t11->save();
-        return redirect('table11');
+        return redirect('table11')->with('msg','Data Inserted Successfully !');
 
     }
 

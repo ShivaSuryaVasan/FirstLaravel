@@ -26,6 +26,7 @@ Route::get('/admin', 'AdminController@index')->name('admin');
 Route::get('/superadmin', 'SuperAdminController@index')->name('superadmin');
 
 Route::view('/register','auth.register');
+Route::get('/logout', 'EmployeeController@logout');
 
 Route::view('/employee','employee.employee');
 Route::get('/employee', 'EmployeeController@show');

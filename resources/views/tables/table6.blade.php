@@ -10,6 +10,17 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+                                    
+        @if(session()->get('msg'))
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                {{ session()->get('msg') }}
+
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        @endif
+
             <div class="card">
                 <div class="card-header">{{ __('Sanitation Facilities in Public Places - Basic') }}</div>
                     <div class="container">
@@ -73,15 +84,4 @@
         </div>
     </div>
 </div>
-@endsection
-
-@section('script')
-
-<script>
-    $('button').click(function(){
-        $('.alert').removeClass("hide")
-        $('.alert').delay(3000).hide(1500); 
-    });
-</script>
-
 @endsection

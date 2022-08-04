@@ -32,14 +32,17 @@ class LoginController extends Controller
     {
         if($user ->hasRole('superadmin')){
             $request -> session() -> put('user_id', $user['id']);
+            $request -> session() -> put('role', $user['role']);
             return redirect('/superadmin');
         }
         if($user ->hasRole('admin')){
             $request -> session() -> put('user_id', $user['id']);
+            $request -> session() -> put('role', $user['role']);
             return redirect('/admin');
         }
         if($user ->hasRole('user')){
             $request -> session() -> put('user_id', $user['id']);
+            $request -> session() -> put('role', $user['role']);
             return redirect('/user');
         }
     }
