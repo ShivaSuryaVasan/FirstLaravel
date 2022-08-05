@@ -97,7 +97,13 @@
                             <div class="form-group col-md-2"></div>
 
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="form0_id10" id="form0_id10" onclick="radio(0)">
+                                <input class="form-check-input" type="radio" name="form0_id10" id="form0_id10" onclick="radio(0)"
+                                <?php
+                                    if( $value['Build_by'] != "Build by own"){
+                                        echo "checked";
+                                    }
+                                ?>
+                                >
                                 <label class="form-check-label" for="form0_id">Project Name</label>
                             </div>
                             <div class="form-check form-check-inline">
@@ -243,7 +249,7 @@
                             <div class="form-group col-md-6">
                                 <div class="form-group">
                                     <input type="hidden" value="No" name="form0_id17">
-                                    <textarea class="form-control" name="form0_id17" id="form0_id17" rows="3" value="{{ $value['Disposed_of'] }}" placeholder="Where it Disposed of .."></textarea>
+                                    <input class="form-control" name="form0_id17" id="form0_id17" rows="3" value="{{ $value['Disposed_of'] }}" placeholder="Where it Disposed of .."></textarea>
                                 </div>
                             </div>
                             <div class="form-group col-md-4"></div>
@@ -270,7 +276,7 @@
                             <div class="form-group col-md-6">
                                 <div class="form-group">
                                     <input type="hidden" value="No" name="form0_id19">
-                                    <textarea class="form-control" name="form0_id19" id="form0_id19" value="{{ $value['Faults'] }}" rows="3" placeholder="Describe the faults.."></textarea>
+                                    <input type=textarea class="form-control" name="form0_id19" id="form0_id19" value="{{ $value['Faults'] }}" rows="3" placeholder="Describe the faults.."></textarea>
                                 </div>
                             </div>
                             <div class="form-group col-md-4"></div>
@@ -683,7 +689,7 @@
                             <div class="form-group col-md-6"></div>
 
                             <div style="margin-bottom:2em;margin-left:2em;margin-top:1em;">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">Update</button>
                                 <a class="btn btn-primary" style="margin-left:2em;" href="\{{ Auth::user()->role }}" role="button">Back</a>
                             </div>
                             

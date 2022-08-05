@@ -7,12 +7,12 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('Employee Details') }}</div>
-                    <table id="showtable" class="table table-striped table-bordered table-responsive">
+                    <table id="showtable" class="table table-striped table-bordered table-responsive" width="100%">
 
                         <thead>
                             <tr>
                                 @if(Auth::user()->role == 'superadmin')
-                                    <th style="width:10%">Action_Action</th>
+                                    <th></th>
                                 @endif
 
                                 <th>Id</th>
@@ -61,11 +61,14 @@
 
                                     @if($value['panchayat_name'] == Auth::user()->panchayat_name)
 
-                                        <td>{{ $value['id']}}</td>
-                                        <td>{{ $value['name']}}</td>
-                                        <td>{{ $value['role']}}</td>
-                                        <td>{{ $value['panchayat_name']}}</td>
-                                        <td>{{ $value['email']}}</td>
+                                        @if($value['role'] != 'admin')
+
+                                            <td>{{ $value['id']}}</td>
+                                            <td>{{ $value['name']}}</td>
+                                            <td>{{ $value['role']}}</td>
+                                            <td>{{ $value['panchayat_name']}}</td>
+                                            <td>{{ $value['email']}}</td>
+                                        @endif
 
                                     @endif
 

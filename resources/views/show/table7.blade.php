@@ -12,10 +12,11 @@
                             <tr>
                                 
                                 @if(Auth::user()->role == 'admin')
-                                <!-- table width not working fine -->
-                                    <th style="width:10%;">Action_Action_Action</th>
+                                    <th></th>
+                                    <th></th>
                                 @elseif(Auth::user()->role == 'superadmin')
-                                    <th style="width:10%;">Action_Action_Action</th>
+                                    <th></th>
+                                    <th></th>
                                 @endif
 
                                 <th>Id</th>
@@ -45,7 +46,9 @@
                                                                 
                                 @if(Auth::user()->role == 'admin')
                                     <th></th>
+                                    <th></th>
                                 @elseif(Auth::user()->role == 'superadmin')
+                                    <th></th>
                                     <th></th>
                                 @endif
 
@@ -79,10 +82,10 @@
                                     @if($value['Panchayat_name'] == Auth::user()->panchayat_name)
                                         <tr>
                                         <td>
-                                            <div>
-                                                <a href={{ "edit7/".$value['id'] }} class="btn btn-primary btn-sm">Edit</a>
-                                                <a href={{"delete7/".$value['id'] }} class="btn btn-primary btn-sm" style="margin-left:20px;">Delete</a>
-                                            </div>
+                                            <a href={{ "edit7/".$value['id'] }} class="btn btn-primary btn-sm">Edit</a>
+                                        </td>
+                                        <td>
+                                            <a href={{"delete7/".$value['id'] }} class="btn btn-primary btn-sm">Delete</a>
                                         </td>
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
@@ -125,10 +128,10 @@
                                 @else
 
                                         <td>
-                                            <div>
-                                                <a href={{ "edit7/".$value['id'] }} class="btn btn-primary btn-sm">Edit</a>
-                                                <a href={{ "delete7/".$value['id'] }}  class="btn btn-primary btn-sm" style="margin-left:20px;">Delete</a>
-                                            </div>
+                                            <a href={{ "edit7/".$value['id'] }} class="btn btn-primary btn-sm">Edit</a>
+                                        </td>
+                                        <td>
+                                            <a href={{"delete7/".$value['id'] }} class="btn btn-primary btn-sm">Delete</a>
                                         </td>
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
