@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TableController;
 use App\Http\Controllers\SuperadminController;
 use App\Http\Controllers\EmpolyeeController;
-// use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,7 +28,7 @@ Route::get('/admin', 'AdminController@index')->name('admin');
 Route::get('/superadmin', 'SuperAdminController@index')->name('superadmin');
 
 // Route::view('/register','auth.register');
-Route::get('/logout', 'LoginController@logout');
+Route::get('/logout', 'Auth\LoginController@logout');
 
 Route::view('/employee','employee.employee');
 Route::get('/employee', 'EmployeeController@show');
