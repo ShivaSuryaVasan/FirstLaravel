@@ -71,10 +71,10 @@
 
                                     <tr>
                                         <td>
-                                            <div>
-                                                <a href={{ "edit1/".$value['id'] }} class="btn btn-primary btn-sm">Edit</a>
-                                                <a href={{"delete1/".$value['id'] }} class="btn btn-primary btn-sm" style="margin-left:20px;">Delete</a>
-                                            </div>
+                                            <a href={{ "edit1/".$value['id'] }} class="btn btn-primary btn-sm">Edit</a>
+                                        </td>
+                                        <td>
+                                            <a href={{ "delete1/".$value['id'] }}  class="btn btn-primary btn-sm">Delete</a>
                                         </td>
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>

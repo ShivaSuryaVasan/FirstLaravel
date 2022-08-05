@@ -168,6 +168,7 @@
                                 @elseif(Auth::user()->role == 'user')
 
                                     @if($value['Entered_id'] == Auth::user()->id)
+                                    
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
