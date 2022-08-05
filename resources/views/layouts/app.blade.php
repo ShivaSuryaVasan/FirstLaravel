@@ -150,7 +150,6 @@
                                 </li>
                                 @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <!-- /register also redirecting to home -->
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                                 @endif

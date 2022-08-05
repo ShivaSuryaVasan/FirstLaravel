@@ -72,6 +72,6 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
         ]);
         $user ->attachRole($data['role']);
-        return $user;
+        return redirect('register')->with('msg','Data Inserted Successfully !');;
     }
 }
