@@ -24,7 +24,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" name="form11_id2" value="{{ $value['Detail_of_work'] }}" rows="3" placeholder="Content.."></textarea>
+                                    <input class="form-control" name="form11_id2" value="{{ $value['Detail_of_work'] }}" rows="3" placeholder="Content.."></textarea>
                                 </div>
                             </div>
 
@@ -133,7 +133,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" name="form11_id15" value="{{ $value['Miscellaneous_project'] }}" rows="3" placeholder="Content.."></textarea>
+                                    <input class="form-control" name="form11_id15" value="{{ $value['Miscellaneous_project'] }}" rows="3" placeholder="Content.."></textarea>
                                 </div>
                             </div>
                             
@@ -142,7 +142,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" name="form11_id16" value="{{ $value['Administrative_permission'] }}" rows="3" placeholder="Content.."></textarea>
+                                    <input class="form-control" name="form11_id16" value="{{ $value['Administrative_permission'] }}" rows="3" placeholder="Content.."></textarea>
                                 </div>
                             </div>
 

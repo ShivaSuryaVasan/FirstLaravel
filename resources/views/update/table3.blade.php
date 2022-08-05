@@ -32,7 +32,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" name="form3_id3" rows="3" value="{{ $value['Health_complexes'] }}" placeholder="Complexes.."></textarea>
+                                    <input class="form-control" name="form3_id3" rows="3" value="{{ $value['Health_complexes'] }}" placeholder="Complexes.."></textarea>
                                 </div>
                             </div>
 
@@ -41,7 +41,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" name="form3_id4" rows="3" value="{{ $value['Location'] }}" placeholder="Location.."></textarea>
+                                    <input class="form-control" name="form3_id4" rows="3" value="{{ $value['Location'] }}" placeholder="Location.."></textarea>
                                 </div>
                             </div>
 
