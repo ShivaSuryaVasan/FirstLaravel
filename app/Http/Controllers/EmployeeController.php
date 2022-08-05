@@ -21,12 +21,4 @@ class EmployeeController extends Controller
         return redirect('/employee');
     }
 
-    public function logout(Request $required){
-
-        $required->session()->forget('user_id');
-        $required->session()->forget('role');
-        return redirect('/');
-
-    }
-
 }
