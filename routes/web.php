@@ -25,7 +25,8 @@ Auth::routes();
 
 Route::get('/user', 'UserController@index')->name('user');
 Route::get('/admin', 'AdminController@index')->name('admin');
-Route::get('/superadmin', 'SuperAdminController@index')->name('superadmin');
+//Route::get('/superadmin', 'SuperAdminController@index')->name('superadmin');
+Route::get('/superadmin', [SuperadminController::class,'index']);
 
 // Route::view('/register','auth.register');
 Route::get('/logout', 'Auth\LoginController@logout');
@@ -35,7 +36,7 @@ Route::get('/employee', 'EmployeeController@show');
 Route::get('/delete_employee/{id}', 'EmployeeController@delete');
 
 Route::view('/table0','tables.table0');                            //Insert Table page
-Route::post('/table0', 'TableController@table0');                  //Inserted Data and directed to Controller 
+Route::post('/table0', 'TableController@table0');                  //Inserted Data and directed to Controller
 Route::view('/show0','show.table0');                               //Showing the inserted data and another page
 Route::get('/show0', 'TableController@show0');                     //Collected data from the controller
 Route::get('/delete0/{id}', 'TableController@delete0');            //Delete the data by passing it to controller

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
 
-class SuperAdminController extends Controller
+class Superadmincontroller extends Controller
 {
     public function __construct()
     {
