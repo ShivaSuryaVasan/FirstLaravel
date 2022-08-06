@@ -28,10 +28,10 @@ class LaratrustSetupTables extends Migration
             $table->unsignedBigInteger('user_id');
             $table->string('user_type');
 
-            $table->foreign('role_id')->references('id')->on('roles')
-                ->onUpdate('cascade')->onDelete('cascade');
+            // $table->foreign('role_id')->references('id')->on('roles')
+            //     ->onUpdate('cascade')->onDelete('cascade');
 
-            $table->primary(['user_id', 'role_id', 'user_type']);
+            // $table->primary(['user_id', 'role_id', 'user_type']);
         });
         
         // Create table for storing permissions
@@ -50,10 +50,10 @@ class LaratrustSetupTables extends Migration
             $table->unsignedBigInteger('user_id');
             $table->string('user_type');
 
-            $table->foreign('permission_id')->references('id')->on('permissions')
-                ->onUpdate('cascade')->onDelete('cascade');
+            // $table->foreign('permission_id')->references('id')->on('permissions')
+            //     ->onUpdate('cascade')->onDelete('cascade');
 
-            $table->primary(['user_id', 'permission_id', 'user_type']);
+            // $table->primary(['user_id', 'permission_id', 'user_type']);
         });
 
         // Create table for associating permissions to roles (Many-to-Many)
@@ -61,12 +61,12 @@ class LaratrustSetupTables extends Migration
             $table->unsignedBigInteger('permission_id');
             $table->unsignedBigInteger('role_id');
 
-            $table->foreign('permission_id')->references('id')->on('permissions')
-                ->onUpdate('cascade')->onDelete('cascade');
-            $table->foreign('role_id')->references('id')->on('roles')
-                ->onUpdate('cascade')->onDelete('cascade');
+            // $table->foreign('permission_id')->references('id')->on('permissions')
+            //     ->onUpdate('cascade')->onDelete('cascade');
+            // $table->foreign('role_id')->references('id')->on('roles')
+            //     ->onUpdate('cascade')->onDelete('cascade');
 
-            $table->primary(['permission_id', 'role_id']);
+            // $table->primary(['permission_id', 'role_id']);
         });
     }
 
