@@ -26,7 +26,7 @@ Auth::routes();
 Route::get('/user', 'UserController@index')->name('user');
 Route::get('/admin', 'AdminController@index')->name('admin');
 //Route::get('/superadmin', 'SuperAdminController@index')->name('superadmin');
-Route::get('/superadmin', 'App\Http\Controllers\SuperadminController@index');
+Route::get('/superadmin', 'SuperadminController@index');
 
 // Route::view('/register','auth.register');
 Route::get('/logout', 'Auth\LoginController@logout');
