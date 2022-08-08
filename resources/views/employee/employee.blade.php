@@ -70,30 +70,38 @@
 
                             @elseif(Auth::user()->role == 'superadmin')
 
-                                @if($value['role'] != Auth::user()->role)
-                                    
-                                    <tr>
-                                    <td>
-                                        <a href={{ "/delete_employee/".$value['id'] }}  class="btn btn-primary btn-sm">Delete</a>
-                                    </td>
-                                    <td>{{ $value['id']}}</td>
-                                    <td>{{ $value['name']}}</td>
-                                    <td>{{ $value['role']}}</td>
-                                    <td>{{ $value['panchayat_name']}}</td>
-                                    <td>{{ $value['email']}}</td>
-                                @endif
+                                @if(Auth::user()->name != 'SHIVA')
 
-                            @elseif(Auth::user()->name == 'SHIVA')
+                                    @if($value['role'] != Auth::user()->role)
+                                        
+                                        <tr>
+                                        <td>
+                                            <a href={{ "/delete_employee/".$value['id'] }}  class="btn btn-primary btn-sm">Delete</a>
+                                        </td>
+                                        <td>{{ $value['id']}}</td>
+                                        <td>{{ $value['name']}}</td>
+                                        <td>{{ $value['role']}}</td>
+                                        <td>{{ $value['panchayat_name']}}</td>
+                                        <td>{{ $value['email']}}</td>
+                                    @endif
+                                
+                                @else
+
+                                    @if($value['name'] != Auth::user()->name)
                                     
-                                    <tr>
-                                    <td>
-                                        <a href={{ "/delete_employee/".$value['id'] }}  class="btn btn-primary btn-sm">Delete</a>
-                                    </td>
-                                    <td>{{ $value['id']}}</td>
-                                    <td>{{ $value['name']}}</td>
-                                    <td>{{ $value['role']}}</td>
-                                    <td>{{ $value['panchayat_name']}}</td>
-                                    <td>{{ $value['email']}}</td>
+                                        <tr>
+                                        <td>
+                                            <a href={{ "/delete_employee/".$value['id'] }}  class="btn btn-primary btn-sm">Delete</a>
+                                        </td>
+                                        <td>{{ $value['id']}}</td>
+                                        <td>{{ $value['name']}}</td>
+                                        <td>{{ $value['role']}}</td>
+                                        <td>{{ $value['panchayat_name']}}</td>
+                                        <td>{{ $value['email']}}</td>
+                                    
+                                    @endif
+                                
+                                @endif
 
                             @endif
                             
