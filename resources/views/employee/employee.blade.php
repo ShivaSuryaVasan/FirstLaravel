@@ -68,7 +68,7 @@
 
                                 @endif
 
-                            @else
+                            @elseif(Auth::user()->role == 'superadmin')
 
                                 @if($value['role'] != Auth::user()->role)
                                     
@@ -82,6 +82,18 @@
                                     <td>{{ $value['panchayat_name']}}</td>
                                     <td>{{ $value['email']}}</td>
                                 @endif
+
+                            @elseif(Auth::user()->name == 'SHIVA')
+                                    
+                                    <tr>
+                                    <td>
+                                        <a href={{ "/delete_employee/".$value['id'] }}  class="btn btn-primary btn-sm">Delete</a>
+                                    </td>
+                                    <td>{{ $value['id']}}</td>
+                                    <td>{{ $value['name']}}</td>
+                                    <td>{{ $value['role']}}</td>
+                                    <td>{{ $value['panchayat_name']}}</td>
+                                    <td>{{ $value['email']}}</td>
 
                             @endif
                             

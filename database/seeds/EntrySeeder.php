@@ -37,9 +37,22 @@ class EntrySeeder extends Seeder
             'user_type' => 'App\User',
         ]);
 
+        DB::table('role_user')->insert([
+            'role_id' => '1',
+            'user_id' => '2',
+            'user_type' => 'App\User',
+        ]);
+
         DB::table('users')->insert([
-            'name' => 'Father',
+            'name' => 'SHIVA',
             'email' => 'superadmin@app.com',
+            'role' => 'superadmin',
+            'password' => '$2y$10$v7UMexqhsg3m.R0/uNHIKuCkVweqN6bLS29N9Rf1TeEmXKaMYMAFC',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Superadmin',
+            'email' => 'superadmin@gmail.com',
             'role' => 'superadmin',
             'password' => '$2y$10$v7UMexqhsg3m.R0/uNHIKuCkVweqN6bLS29N9Rf1TeEmXKaMYMAFC',
         ]);

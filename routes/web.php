@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TableController;
-use App\Http\Controllers\SuperadminController;
+use App\Http\Controllers\Superadmincontroller;
+use App\Http\Controllers\Aadmincontroller;
+use App\Http\Controllers\usercontroller;
 use App\Http\Controllers\EmpolyeeController;
 use App\Http\Controllers\Auth\LoginController;
 
@@ -23,12 +25,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/user', 'UserController@index')->name('user');
-Route::get('/admin', 'AdminController@index')->name('admin');
-//Route::get('/superadmin', 'SuperAdminController@index')->name('superadmin');
-Route::get('/superadmin', 'SuperadminController@index');
+Route::get('/user', 'usercontroller@index')->name('user');
+Route::get('/admin', 'Admincontroller@index')->name('admin');
+Route::get('/superadmin', 'Superadmincontroller@index')->name('superadmin');
 
-// Route::view('/register','auth.register');
 Route::get('/logout', 'Auth\LoginController@logout');
 
 Route::view('/employee','employee.employee');
