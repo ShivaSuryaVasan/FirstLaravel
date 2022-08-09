@@ -6,7 +6,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">{{ __('Basic Detail Form') }}</div>
+                <div class="card-header">{{ __('Employee Detail') }}</div>
                     <table id="showtable" class="table table-striped table-bordered table-responsive" width="100%">
                         <thead>
                         <tr>
