@@ -7,10 +7,10 @@ use App\User;
 
 class SuperadminController extends Controller
 {
-    //public function __construct()
-    //{
-    //    $this->middleware('role:superadmin');
-    //}
+    public function __construct()
+    {
+       $this->middleware('role:superadmin');
+    }
 
     public function index()
     {
