@@ -38,21 +38,36 @@
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Role') }}</label>
 
-                            <div class="col-md-6">
-                                <input id="role" type="text" class="form-control @error('name') is-invalid @enderror" name="role" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                            <!-- radio type -->
 
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                            <div class="col-md-6" style="margin-top:6px;">
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="role" value="superadmin">
+                                    <label class="form-check-label" for="form0_id">Superadmin</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="role" value="admin">
+                                    <label class="form-check-label" for="form0_id">Admin</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="role" value="user">
+                                    <label class="form-check-label" for="form0_id">User</label>
+                                </div>
+
+                            <!-- radio type -->
+
+                            <!-- <div class="col-md-6">
+                                <input id="role" type="text" class="form-control @error('name') is-invalid @enderror" name="role" value="{{ old('name') }}" required autocomplete="name" autofocus> -->
+
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="panchayat_name" class="col-md-4 col-form-label text-md-right">{{ __('Panchayat Name') }}</label>
 
                             <div class="col-md-6">
-                                <input id="panchayat_name" type="text" class="form-control @error('name') is-invalid @enderror" name="panchayat_name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                <input id="panchayat_name" type="text" class="form-control @error('name') is-invalid @enderror" name="panchayat_name" value="{{ old('panchayat_name') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">

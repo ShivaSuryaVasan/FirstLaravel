@@ -21,10 +21,6 @@
                             <th>Panchayat_name</th>
                             <th>Email</th>
 
-                            @if(Auth::user()->role == 'admin')
-                                <th>Entered_id</th>
-                            @endif
-
                         </tr>
                         </thead>
                         
@@ -41,10 +37,6 @@
                                 <th class="th">Panchayat_name</th>
                                 <th class="th">Email</th>
 
-                                @if(Auth::user()->role == 'admin')
-                                    <th class="th">Entered_id</th>
-                                @endif
-
                             </tr>
                         </tfoot>
                         <tbody>
@@ -53,7 +45,7 @@
 
                             @if(Auth::user()->role == 'admin')
 
-                                @if($value['Panchayat_name'] == Auth::user()->panchayat_name)
+                                @if($value['panchayat_name'] == Auth::user()->panchayat_name)
 
                                     @if($value['role'] != Auth::user()->role)
 
@@ -63,7 +55,7 @@
                                             <td>{{ $value['role']}}</td>
                                             <td>{{ $value['panchayat_name']}}</td>
                                             <td>{{ $value['email']}}</td>
-                                            <td>{{ $value['Entered_id']}}</td>
+
                                     @endif
 
                                 @endif
