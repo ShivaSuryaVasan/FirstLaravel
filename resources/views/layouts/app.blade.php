@@ -77,8 +77,8 @@
             }
             return;
         }
-        function Cavity(){
-            if(document.getElementById("form0_id16").checked == true){
+        function Cavity(x){
+            if(x == 0){
                 document.getElementById("form0_id17").style.display = "block";
             }else{
                 document.getElementById("form0_id17").style.display = "none";
@@ -93,16 +93,16 @@
             }
             return;
         }
-        function isDamaged(){
-            if(document.getElementById("form0_id18").checked == true){
+        function isDamaged(x){
+            if(x == 0){
                 document.getElementById("form0_id19").style.display = "block";
             }else{
                 document.getElementById("form0_id19").style.display = "none";
             }
             return;
         }
-        function isLivestock(){
-            if(document.getElementById("form0_id32").checked == true){
+        function isLivestock(x){
+            if(x == 0){
                 document.getElementById("form0_id33").style.display = "block";
             }else{
                 document.getElementById("form0_id33").style.display = "none";

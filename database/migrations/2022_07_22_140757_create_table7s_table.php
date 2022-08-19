@@ -16,6 +16,7 @@ class CreateTable7sTable extends Migration
         Schema::create('table7s', function (Blueprint $table) {
             $table->id();
             $table->string('Panchayat_name');
+            $table->string('Block_name')->nullable();
             $table->integer('Garbage_process');
             $table->integer('Nengaged_collectors')->nullable();
             $table->integer('Collected_volume')->nullable();

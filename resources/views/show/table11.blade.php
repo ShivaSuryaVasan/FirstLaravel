@@ -21,6 +21,7 @@
 
                                 <th>Id</th>
                                 <th>Panchayat_Name</th>
+                                <th>Block_name</th>
                                 <th>Detail_of_Work</th>
                                 <th>Total_Amount_Required</th>
                                 <th>Fund_for_Work_MGNREGS</th>
@@ -57,6 +58,7 @@
 
                                 <th class="th">Id</th>
                                 <th class="th">Panchayat_Name</th>
+                                <th class="th">Block_name</th>
                                 <th class="th">Detail_of_Work</th>
                                 <th class="th">Total_Amount_Required</th>
                                 <th class="th">Fund_for_Work_MGNREGS</th>
@@ -95,6 +97,7 @@
                                         </td>
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Detail_of_work']}}</td>
                                         <td>{{ $value['Total_amount_required']}}</td>
                                         <td>{{ $value['MGNREGS']}}</td>
@@ -119,6 +122,7 @@
 
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Detail_of_work']}}</td>
                                         <td>{{ $value['Total_amount_required']}}</td>
                                         <td>{{ $value['MGNREGS']}}</td>
@@ -147,6 +151,7 @@
                                         </td>
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Detail_of_work']}}</td>
                                         <td>{{ $value['Total_amount_required']}}</td>
                                         <td>{{ $value['MGNREGS']}}</td>

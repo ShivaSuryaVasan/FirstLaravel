@@ -33,6 +33,13 @@
                                 <input type="text" class="form-control" name="form0_id2" placeholder="Hamlet Name..">
                             </div>
                             
+                            <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form0_id34" placeholder="Block Name..">
+                            </div>
+
                         
                             <div class="form-group col-md-6">
                                 <label for="form0_id">Head of the Household Name</label>
@@ -48,25 +55,61 @@
 
                             <div class="form-group col-md-3" style="margin-left:12em;">
                                 <label for="form0_id">No.of Family Members</label>
-                                <input type="number" class="form-control" name="form0_id5" placeholder="Count..">
+                                <input type="number" class="form-control" min="0" name="form0_id5" placeholder="Count..">
                             </div>
 
-                            <div class="form-group col-md-12" id="toilet" onclick=isChecked()>
+                            <!-- <div class="form-group col-md-12" id="toilet" onclick=isChecked()>
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form0_id6">
                                     <input class="form-check-input" id="form0_id6" type="checkbox" value="Yes" name="form0_id6">
                                     <label class="form-check-label" for="form0_id">Is There a Toilet<label>
                                 </div>
+                            </div> -->
+
+
+                            <div class="form-group col-md-12" id="toilet" onclick=isChecked()>
+
+                                <div class="form-group col-md-6">
+                                    <label class="form-check-label" for="form0_id">Is There a Toilet :</label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="form0_id6" id="form0_id6" value="Yes">
+                                        <label class="form-check-label" for="form0_id">Yes, There is a Toilet</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="form0_id6" value="No">
+                                        <label class="form-check-label" for="form0_id">No</label>
+                                    </div>
+                                </div>
+                                
                             </div>
 
                         <div id="toilet-has" style="display:none;">
 <!-- Toilet Has -->
                         <div class="form-row" style="margin-left:1px;">
-                            <div class="form-group col-md-12">
+
+
+                            <!-- <div class="form-group col-md-12">
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form0_id7">
                                     <input class="form-check-input" type="checkbox" value="Yes" name="form0_id7">
                                     <label class="form-check-label" for="form0_id">Is There Water Facility for Toilet<label>
+                                </div>
+                            </div> -->
+                            <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
+                                    <label class="form-check-label" for="form0_id">Is There Water Facility for Toilet :</label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="form0_id7" id="form0_id7" value="Yes">
+                                        <label class="form-check-label" for="form0_id">Yes, There is Water Facility for Toilet</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="form0_id7" value="No">
+                                        <label class="form-check-label" for="form0_id">No</label>
+                                    </div>
                                 </div>
                             </div>
 
@@ -79,7 +122,7 @@
                                 <label for="form0_id">No.of Members Use Toilet Daily</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form0_id8" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form0_id8" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6" style="text-align:center;">
@@ -91,7 +134,7 @@
                                 <label for="form0_id">Year</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form0_id9" placeholder="yyyy..">
+                                <input type="number" min="0" class="form-control" name="form0_id9" placeholder="yyyy..">
                             </div>
                             <div class="form-group col-md-2"></div>
 
@@ -100,10 +143,10 @@
                                 <label class="form-check-label" for="form0_id">Project Name</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="form0_id10" id="form0_id10" value="Build by own" onclick="radio(1)">
+                                <input class="form-check-input" type="radio" style="margin-left:11.2em;" name="form0_id10" id="form0_id10" value="Build by own" onclick="radio(1)">
                                 <label class="form-check-label" for="form0_id">Build By Own</label>
                             </div>
-                            <div class="form-group col-md-6"></div>
+                            <div class="form-group col-md-4"></div>
 
     <!-- if yes -->     
                             <div class="form-group col-md-3" style="margin-top:1em;">
@@ -118,12 +161,12 @@
 
                             <div class="form-group col-md-3">
                                 <label for="form0_id12">One Absorb Pit</label>
-                                <input type="number" class="form-control" name="form0_id11" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form0_id11" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-3"  style="margin-left:12em;">
                                 <label for="form0_id13">Two Absorb Pit</label>
-                                <input type="number" class="form-control" name="form0_id12" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form0_id12" placeholder="Count..">
                             </div>
                             <div class="form-group col-md-2"></div>
 
@@ -171,13 +214,33 @@
                                 <label class="form-check-label" for="form0_id">Damaged / Clogged Toilet</label>
                             </div>
 
-                            <div class="form-group col-md-12" style="margin-top:1em;">
-                                <div class="form-check">
-                                    <input type="hidden" value="No" name="form0_id16">
-                                    <input class="form-check-input" type="checkbox" value="Yes" id="form0_id16" name="form0_id16" onclick=Cavity()>
-                                    <label class="form-check-label" for="form0_id">Has Cavity Filled Before<label>
+                            <!-- <div class="form-group col-md-12" style="margin-top:1em;">
+                                <div class="form-check col-md-6">
+                                    <input class="form-check-input" type="radio" value="Yes" id="form0_id16" name="form0_id16" onclick=Cavity()>
+                                    <label class="form-check-label" for="form0_id">Yes, Has Cavity Filled Before<label>
+                                </div>
+                                <div class="form-check col-md-6">
+                                    <input class="form-check-input" type="radio" value="No" name="form0_id16" >
+                                    <label class="form-check-label" for="form0_id">No<label>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group col-md-12"></div>
+                            <div class="form-group col-md-6">
+                                <label class="form-check-label" for="form0_id">Has Cavity :</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form0_id10" id="form0_id10" value="Yes" onclick="Cavity(0)">
+                                    <label class="form-check-label" for="form0_id">Yes, Has Cavity Filled Before</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form0_id10" value="No" onclick="Cavity(1)">
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
+                            
     <!-- if yes  -->
                             <div class="form-group col-md-6">
                                 <div class="form-group">
@@ -192,11 +255,27 @@
                             </div>
                             <div class="form-group col-md-4"></div>
 
-                            <div class="form-group col-md-12" >
+                            <!-- <div class="form-group col-md-12" >
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form0_id18">
                                     <input class="form-check-input" type="checkbox" id="form0_id18" value="Yes" onclick="isDamaged()" name="form0_id18">
                                     <label class="form-check-label" for="form0_id">Is Damaged<label>
+                                </div>
+                            </div> -->
+
+                            
+                            <div class="form-group col-md-6">
+                                <label class="form-check-label" for="form0_id">Is Damaged :</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form0_id18" id="form0_id18" value="Yes" onclick="isDamaged(0)">
+                                    <label class="form-check-label" for="form0_id">Yes, Damaged</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form0_id18" value="No" onclick="isDamaged(1)">
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
 <!-- ifyes -->
@@ -223,28 +302,28 @@
                                 <label for="form0_id">No.of House Without Toilet</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form0_id20" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form0_id20" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form0_id">House Without Toilet Who Already benefited from Toilet Project</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form0_id21" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form0_id21" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form0_id22">Families Have no Enough Space to Build Toilet</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form0_id22" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form0_id22" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form0_id23">Families Shared Toilet</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form0_id23" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form0_id23" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
@@ -265,7 +344,7 @@
                                 <label for="form0_id25">Household have Enough Space to Build Toilet</label>
                             </div>
                             <div class="form-group col-md-3"style="margin-top:1em;">
-                                <input type="number" class="form-control" name="form0_id25" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form0_id25" placeholder="Count..">
                             </div>
                             
 <!-- End no Toilet -->
@@ -276,11 +355,22 @@
                                 <label for="form0_id">Solid Waste Disposal :</label>
                             </div>
 
-                            <div class="form-group col-md-12" style="margin-top:1em;">
+                            <!-- <div class="form-group col-md-12" style="margin-top:1em;">
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form0_id26">
                                     <input class="form-check-input" type="checkbox" value="Yes" name="form0_id26">
                                     <label class="form-check-label" for="form0_id">Is Grading Done at Home<label>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form0_id26" id="form0_id26" value="Yes">
+                                    <label class="form-check-label" for="form0_id">Yes, Grading Done at Home</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form0_id26" value="No">
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
 
@@ -434,16 +524,32 @@
                                 <label class="form-check-label" for="form0_id">Any Other</label>
                             </div>
 
-                            <div class="form-group col-md-12" style="margin-top:1em;">
+                            <!-- <div class="form-group col-md-12" style="margin-top:1em;">
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form0_id32">
                                     <input class="form-check-input" type="checkbox" value="Yes" id="form0_id32" onclick="isLivestock()" name="form0_id32">
-                                    <label class="form-check-label" for="form0_id">Do You have Live Stock<label>
+                                    <label class="form-check-label" for="form0_id">Do Family having Cattles<label>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group col-md-12"></div>
+                            <div class="form-group col-md-6">
+                                <label class="form-check-label" for="form0_id">Do Family having Cattles :</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form0_id32" id="form0_id32" value="Yes" onclick="isLivestock(0)">
+                                    <label class="form-check-label" for="form0_id">Yes, Family having Cattles</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form0_id32" value="No" onclick="isLivestock(1)">
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
 
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" style="display:none;" name="form0_id33" id="form0_id33" placeholder="Count..">
+                                <input type="number" class="form-control" min="0" style="display:none;" name="form0_id33" id="form0_id33" placeholder="Count..">
                             </div>
                             <div class="form-group col-md-6"></div>
 
@@ -460,15 +566,5 @@
         </div>
     </div>
 </div>
-@endsection
-
-@section('script')
-
-<script>
-    $('button').click(function(){
-        $('.alert').removeClass("hide")
-        $('.alert').delay(3000).hide(1500); 
-    });
-</script>
 
 @endsection

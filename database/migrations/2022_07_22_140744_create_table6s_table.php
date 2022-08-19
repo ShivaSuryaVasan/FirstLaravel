@@ -17,6 +17,7 @@ class CreateTable6sTable extends Migration
             $table->id();
             $table->string('Panchayat_name');
             $table->integer('Nhamelet');
+            $table->string('Block_name')->nullable();
             $table->integer('Nschool')->nullable();
             $table->integer('SToilet_in_school')->nullable();
             $table->integer('Nanganwadi')->nullable();

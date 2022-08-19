@@ -33,43 +33,50 @@
                             </div>
 
                             <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form0_id8" placeholder="Block Name..">
+                            </div>
+
+                            <div class="form-group col-md-6">
                                 <label for="form1_id">Total No.of House</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form1_id3" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form1_id3" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form1_id">Total No.of Shops</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form1_id4" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form1_id4" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form1_id">Total No.of Companies</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form1_id5" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form1_id5" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form1_id">Population in 2011</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form1_id6" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form1_id6" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form1_id">Population Currently</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form1_id7" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form1_id7" placeholder="Count..">
                             </div>
                             <div class="form-group col-md-2"></div>
 
                             <div style="margin-bottom:2em;">
-                                <button type="submit" onclick=alertme(); id="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
                                 <a class="btn btn-primary" style="margin-left:2em;" href="\{{ Auth::user()->role }}" role="button">Back</a>
                             </div>
                         </div>

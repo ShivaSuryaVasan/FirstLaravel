@@ -35,14 +35,21 @@
                                 <input type="text" class="form-control" name="form2_id2" placeholder="Hamlet Name..">
                             </div>
 
+                            <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form2_id25" placeholder="Block Name..">
+                            </div>
+
                             <div class="form-group col-md-4">
                                 <label for="form2_id">Total No.of House</label>
-                                <input type="number" class="form-control" name="form2_id3" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id3" placeholder="Count..">
                             </div>
                             <div class="form-group col-md-2"></div>
                             <div class="form-group col-md-4">
                                 <label for="form2_id">Population</label>
-                                <input type="number" class="form-control" name="form2_id4" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id4" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6" style="text-align:center;">
@@ -52,36 +59,36 @@
 
                             <div class="form-group col-md-4">
                                 <label for="form2_id">One Absorb Pit</label>
-                                <input type="number" class="form-control" name="form2_id5" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id5" placeholder="Count..">
                             </div>
                             <div class="form-group col-md-2"></div>
                             <div class="form-group col-md-4">
                                 <label for="form2_id">Two Absorb Pit</label>
-                                <input type="number" class="form-control" name="form2_id6" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id6" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form2_id">Absorb Pit With Septic Tank</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id7" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id7" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form2_id">Absorb Pit Without Septic Tank</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id8" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id8" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-4">
                                 <label for="form2_id">Other Options</label>
-                                <input type="number" class="form-control" name="form2_id9" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id9" placeholder="Count..">
                             </div>
                             <div class="form-group col-md-2"></div>
                             <div class="form-group col-md-4">
                                 <label for="form2_id">Total</label>
-                                <input type="number" class="form-control" name="form2_id10" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id10" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -92,21 +99,21 @@
                                 <label for="form2_id">Everybody in House Uses</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id11" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id11" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form2_id">Few in House Uses</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id12" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id12" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form2_id">No One Uses</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id13" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id13" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -117,14 +124,14 @@
                                 <label for="form2_id">No Awarness</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id14" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id14" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form2_id">Broken Toilets</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id15" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id15" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -135,14 +142,14 @@
                                 <label for="form2_id">Small Repair in Toilet</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id16" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id16" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form2_id">Totally Broken Toilet</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id17" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id17" placeholder="Count..">
                             </div>
                             
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -153,49 +160,49 @@
                                 <label for="form2_id">No.of House Without Toilet</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id18" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id18" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form2_id">House Without Toilet has already benefited from Government Schemes</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id19" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id19" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form2_id">House With not Enough Place for Build a Toilet</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id20" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id20" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form2_id">House with Shared Toilet</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id21" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id21" placeholder="Count..">
                             </div>
                             
                             <div class="form-group col-md-6">
                                 <label for="form2_id">House with Sanitary Facilities</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id22" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id22" placeholder="Count..">
                             </div>
                             
                             <div class="form-group col-md-6">
                                 <label for="form2_id">House With not eligible for Toilet Construction</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id23" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id23" placeholder="Count..">
                             </div>
                             
                             <div class="form-group col-md-6">
                                 <label for="form2_id">Toilets Taken up under SBM(G) Scheme for 2022/23</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form2_id24" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form2_id24" placeholder="Count..">
                             </div>
 
                             <div style="margin-bottom:2em;margin-left:2em;">

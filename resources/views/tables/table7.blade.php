@@ -34,31 +34,38 @@
                             </div>
 
                             <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form7_id14" placeholder="Block Name..">
+                            </div>
+
+                            <div class="form-group col-md-6">
                                 <label for="form7_id">Garbage Censorship in Process of Days</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id2" placeholder="Count in Days..">
+                                <input type="number" min="0"  class="form-control" name="form7_id2" placeholder="Count in Days..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form7_id">No.of Engaged Garbage Collectors</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id3" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id3" placeholder="In Kgs..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form7_id">Collected Garbage Volume</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id4" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id4" placeholder="In Kgs..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form7_id">Bio-Degradable Waste Volume</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id5" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id5" placeholder="In Kgs..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -69,21 +76,21 @@
                                 <label for="form7_id">Flexible Wasage</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id6" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id6" placeholder="In Kgs..">
                             </div>
                             
                             <div class="form-group col-md-6">
                                 <label for="form7_id">Recycling Wasage</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id7" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id7" placeholder="In Kgs..">
                             </div>
                             
                             <div class="form-group col-md-6">
                                 <label for="form7_id">Recycling Impossible Wasage</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id8" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id8" placeholder="In Kgs..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -94,35 +101,35 @@
                                 <label for="form7_id">Medical Wasage</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id9" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id9" placeholder="In Kgs..">
                             </div>
                             
                             <div class="form-group col-md-6">
                                 <label for="form7_id">Industrial Wasage</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id10" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id10" placeholder="In Kgs..">
                             </div>
                             
                             <div class="form-group col-md-6">
                                 <label for="form7_id">Health Wasage</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id11" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id11" placeholder="In Kgs..">
                             </div>
                             
                             <div class="form-group col-md-6">
                                 <label for="form7_id">Electronic Wasage</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id12" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id12" placeholder="In Kgs..">
                             </div>
                             
                             <div class="form-group col-md-6">
                                 <label for="form7_id">Contruction Wasage</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form7_id13" placeholder="In Kgs..">
+                                <input type="number" min="0"  class="form-control" name="form7_id13" placeholder="In Kgs..">
                             </div>
                             
                             <div style="margin-bottom:2em;margin-left:2em;">

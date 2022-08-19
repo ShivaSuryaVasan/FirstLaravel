@@ -22,6 +22,7 @@
                                 <th>Id</th>
                                 <th>Panchayat_Name</th>
                                 <th>Hamlet_Name</th>
+                                <th>Block_name</th>
                                 <th>Total_No.of_Temples</th>
                                 <th>Toilet_Facilities_in_Temple_Campus</th>
                                 <th>General_Toilet_Facility_in_Temple</th>
@@ -60,6 +61,7 @@
                                 <th class="th">Id</th>
                                 <th class="th">Panchayat_Name</th>
                                 <th class="th">Hamlet_Name</th>
+                                <th class="th">Block_name</th>
                                 <th class="th">Total_No.of_Temples</th>
                                 <th class="th">Toilet_Facilities_in_Temple_Campus</th>
                                 <th class="th">General_Toilet_Facility_in_Temple</th>
@@ -100,6 +102,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Ntemple']}}</td>
                                         <td>{{ $value['Toilet_in_temple']}}</td>
                                         <td>{{ $value['General_toilet_temple']}}</td>
@@ -126,6 +129,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Ntemple']}}</td>
                                         <td>{{ $value['Toilet_in_temple']}}</td>
                                         <td>{{ $value['General_toilet_temple']}}</td>
@@ -156,6 +160,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Ntemple']}}</td>
                                         <td>{{ $value['Toilet_in_temple']}}</td>
                                         <td>{{ $value['General_toilet_temple']}}</td>

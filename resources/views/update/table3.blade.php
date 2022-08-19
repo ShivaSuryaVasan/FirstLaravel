@@ -21,6 +21,13 @@
                                 <input type="text" class="form-control" name="form3_id2" value="{{ $value['Hamlet_name'] }}" placeholder="Hamlet Name..">
                             </div>
 
+                            <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form3_id16" value="{{ $value['Hamlet_name'] }}" placeholder="Block Name..">
+                            </div>
+
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
                                 <label for="form3_id">Details of Health Complexes</label>
                             </div>

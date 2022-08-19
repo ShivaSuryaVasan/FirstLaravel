@@ -22,6 +22,13 @@
                                 <input type="text" class="form-control" name="form2_id2" value="{{ $value['Hamlet_name'] }}" placeholder="Hamlet Name..">
                             </div>
 
+                            <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form2_id25" value="{{ $value['Hamlet_name'] }}" placeholder="Block Name..">
+                            </div>
+
                             <div class="form-group col-md-4">
                                 <label for="form2_id">Total No.of House</label>
                                 <input type="number" class="form-control" name="form2_id3" value="{{ $value['Total_houses'] }}" placeholder="Count..">

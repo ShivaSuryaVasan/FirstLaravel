@@ -22,6 +22,7 @@
                             <th>Id</th>
                             <th>Panchayat_name</th>
                             <th>Hamlet_name</th>
+                            <th>Block_name</th>
                             <th>Head_of_household</th>
                             <th>Door.no</th>
                             <th>No.of.Family_members</th>
@@ -51,7 +52,7 @@
                             <th>Dry_waste</th>
                             <th>Existing_facilities</th>
                             <th>Management_facilities</th>
-                            <th>Has_Livestock</th>
+                            <th>Has_Cattles</th>
                             <th>How_many_times</th>
 
                             @if(Auth::user()->role == 'admin')
@@ -75,6 +76,7 @@
                                 <th class="th">Id</th>
                                 <th class="th">Panchayat_name</th>
                                 <th class="th">Hamlet_name</th>
+                                <th class="th">Block_name</th>
                                 <th class="th">Head_of_household</th>
                                 <th class="th">Door.no</th>
                                 <th class="th">No.of.Family_members</th>
@@ -104,7 +106,7 @@
                                 <th class="th">Dry_waste</th>
                                 <th class="th">Existing_facilities</th>
                                 <th class="th">Management_facilities</th>
-                                <th class="th">Has_Livestock</th>
+                                <th class="th">Has_Cattles</th>
                                 <th class="th">How_many_times</th>
 
                                 @if(Auth::user()->role == 'admin')
@@ -131,6 +133,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Head_of_household']}}</td>
                                         <td>{{ $value['Door_no']}}</td>
                                         <td>{{ $value['Family_members']}}</td>
@@ -173,6 +176,7 @@
                                 <td>{{ $value['id']}}</td>
                                     <td>{{ $value['Panchayat_name']}}</td>
                                     <td>{{ $value['Hamlet_name']}}</td>
+                                    <td>{{ $value['Block_name']}}</td>
                                     <td>{{ $value['Head_of_household']}}</td>
                                     <td>{{ $value['Door_no']}}</td>
                                     <td>{{ $value['Family_members']}}</td>
@@ -218,6 +222,7 @@
                                     <td>{{ $value['id']}}</td>
                                     <td>{{ $value['Panchayat_name']}}</td>
                                     <td>{{ $value['Hamlet_name']}}</td>
+                                    <td>{{ $value['Block_name']}}</td>
                                     <td>{{ $value['Head_of_household']}}</td>
                                     <td>{{ $value['Door_no']}}</td>
                                     <td>{{ $value['Family_members']}}</td>

@@ -22,6 +22,13 @@
                             </div>
 
                             <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form9_id12" value="{{ $value['Hamlet_name'] }}" placeholder="Block Name..">
+                            </div>
+
+                            <div class="form-group col-md-6">
                                 <label for="form9_id">Cleanliness Members Count</label>
                             </div>
                             <div class="form-group col-md-3">

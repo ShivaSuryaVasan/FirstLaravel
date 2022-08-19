@@ -22,6 +22,7 @@
                             <th>Id</th>
                             <th>Panchayat_name</th>
                             <th>Hamlet_name</th>
+                            <th>Block_name</th>
                             <th>Total_No.of_House</th>
                             <th>Total_No.of_Shops</th>
                             <th>Total_No.of_Companies</th>
@@ -49,6 +50,7 @@
                                 <th class="th">Id</th>
                                 <th class="th">Panchayat_name</th>
                                 <th class="th">Hamlet_name</th>
+                                <th class="th">Block_name</th>
                                 <th class="th">Total No.of House</th>
                                 <th class="th">Total No.of Shops</th>
                                 <th class="th">Total No.of Companies</th>
@@ -79,6 +81,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Ntotal_houses']}}</td>
                                         <td>{{ $value['Ntotal_shops']}}</td>
                                         <td>{{ $value['Ntotal_companies']}}</td>
@@ -94,6 +97,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Ntotal_houses']}}</td>
                                         <td>{{ $value['Ntotal_shops']}}</td>
                                         <td>{{ $value['Ntotal_companies']}}</td>
@@ -113,6 +117,7 @@
                                     <td>{{ $value['id']}}</td>
                                     <td>{{ $value['Panchayat_name']}}</td>
                                     <td>{{ $value['Hamlet_name']}}</td>
+                                    <td>{{ $value['Block_name']}}</td>
                                     <td>{{ $value['Ntotal_houses']}}</td>
                                     <td>{{ $value['Ntotal_shops']}}</td>
                                     <td>{{ $value['Ntotal_companies']}}</td>

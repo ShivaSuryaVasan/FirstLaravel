@@ -15,6 +15,7 @@ class TableController extends Controller
         $t0 = new table0;
         $t0->Panchayat_name = $required->form0_id1;
         $t0->Hamlet_name = $required->form0_id2;
+        $t0->Block_name = $required->form0_id34;
         $t0->Head_of_household = $required->form0_id3;
         $t0->Door_no = $required->form0_id4;
         $t0->Family_members = $required->form0_id5;
@@ -57,6 +58,7 @@ class TableController extends Controller
         $t1 = new table1;
         $t1->Panchayat_name = $required->form1_id1;
         $t1->Hamlet_name = $required->form1_id2;
+        $t1->Block_name = $required->form1_id8;
         $t1->Ntotal_houses = $required->form1_id3;
         $t1->Ntotal_shops = $required->form1_id4;
         $t1->Ntotal_companies = $required->form1_id5;
@@ -73,6 +75,7 @@ class TableController extends Controller
         $t2 = new table2;
         $t2->Panchayat_name = $required->form2_id1;
         $t2->Hamlet_name = $required->form2_id2;
+        $t2->Block_name = $required->form2_id25;
         $t2->Total_houses = $required->form2_id3;
         $t2->Population = $required->form2_id4;
         $t2->One_absorb_pit = $required->form2_id5;
@@ -106,6 +109,7 @@ class TableController extends Controller
         $t3 = new table3;
         $t3->Panchayat_name = $required->form3_id1;
         $t3->Hamlet_name = $required->form3_id2;
+        $t3->Block_name = $required->form3_id6;
         $t3->Health_complexes = $required->form3_id3;
         $t3->Location = $required->form3_id4;
         $t3->Fully_functional = $required->form3_id5;
@@ -130,6 +134,7 @@ class TableController extends Controller
         $t4 = new table4;
         $t4->Panchayat_name = $required->form4_id1;
         $t4->Hamlet_name = $required->form4_id2;
+        $t4->Block_name = $required->form4_id18;
         $t4->School_name = $required->form4_id3;
         $t4->S_has_toilet = $required->form4_id4;
         $t4->Bstudent_toilet = $required->form4_id5;
@@ -156,6 +161,7 @@ class TableController extends Controller
         $t5 = new table5;
         $t5->Panchayat_name = $required->form5_id1;
         $t5->Hamlet_name = $required->form5_id2;
+        $t5->Block_name = $required->form5_id19;
         $t5->Ntemple = $required->form5_id3;
         $t5->Toilet_in_temple = $required->form5_id4;
         $t5->General_toilet_temple = $required->form5_id5;
@@ -182,6 +188,7 @@ class TableController extends Controller
 
         $t6 = new table6;
         $t6->Panchayat_name = $required->form6_id1;
+        $t6->Block_name = $required->form6_id11;
         $t6->Nhamelet = $required->form6_id2;
         $t6->Nschool = $required->form6_id3;
         $t6->SToilet_in_school = $required->form6_id4;
@@ -201,6 +208,7 @@ class TableController extends Controller
 
         $t7 = new table7;
         $t7->Panchayat_name = $required->form7_id1;
+        $t7->Block_name = $required->form7_id14;
         $t7->Garbage_process = $required->form7_id2;
         $t7->Nengaged_collectors = $required->form7_id3;
         $t7->Collected_volume = $required->form7_id4;
@@ -224,6 +232,7 @@ class TableController extends Controller
         $t8 = new table8;
         $t8->Panchayat_name = $required->form8_id1;
         $t8->Hamlet_name = $required->form8_id2;
+        $t8->Block_name = $required->form8_id32;
         $t8->Nhouse = $required->form8_id3;
         $t8->Ncleaner = $required->form8_id4;
         $t8->Tgood_condition = $required->form8_id5;
@@ -264,6 +273,7 @@ class TableController extends Controller
         $t9 = new table9;
         $t9->Panchayat_name = $required->form9_id1;
         $t9->Hamlet_name = $required->form9_id2;
+        $t9->Block_name = $required->form9_id12;
         $t9->Ncleaner = $required->form9_id3;
         $t9->Cplace_name = $required->form9_id4;
         $t9->Clocation = $required->form9_id5;
@@ -284,6 +294,7 @@ class TableController extends Controller
         $t10 = new table10;
         $t10->Panchayat_name = $required->form10_id1;
         $t10->Hamlet_name = $required->form10_id2;
+        $t10->Block_name = $required->form10_id38;
         $t10->Nstreet = $required->form10_id3;
         $t10->Mhouse = $required->form10_id4;
         $t10->Whome_garden = $required->form10_id5;
@@ -329,6 +340,7 @@ class TableController extends Controller
 
         $t11 = new table11;
         $t11->Panchayat_name = $required->form11_id1;
+        $t11->Block_name = $required->form11_id17;
         $t11->Detail_of_work = $required->form11_id2;
         $t11->Total_amount_required = $required->form11_id3;
         $t11->MGNREGS = $required->form11_id4;
@@ -589,6 +601,7 @@ class TableController extends Controller
         $t0 = table0::find($required -> id);
         $t0->Panchayat_name = $required->form0_id1;
         $t0->Hamlet_name = $required->form0_id2;
+        $t0->Block_name = $required->form0_id34;
         $t0->Head_of_household = $required->form0_id3;
         $t0->Door_no = $required->form0_id4;
         $t0->Family_members = $required->form0_id5;
@@ -630,6 +643,7 @@ class TableController extends Controller
         $t1 = table1::find($required -> id);
         $t1->Panchayat_name = $required->form1_id1;
         $t1->Hamlet_name = $required->form1_id2;
+        $t1->Block_name = $required->form1_id8;
         $t1->Ntotal_houses = $required->form1_id3;
         $t1->Ntotal_shops = $required->form1_id4;
         $t1->Ntotal_companies = $required->form1_id5;
@@ -644,6 +658,7 @@ class TableController extends Controller
         $t2 = table2::find($required -> id);
         $t2->Panchayat_name = $required->form2_id1;
         $t2->Hamlet_name = $required->form2_id2;
+        $t2->Block_name = $required->form2_id25;
         $t2->Total_houses = $required->form2_id3;
         $t2->Population = $required->form2_id4;
         $t2->One_absorb_pit = $required->form2_id5;
@@ -676,6 +691,7 @@ class TableController extends Controller
         $t3 = table3::find($required -> id);
         $t3->Panchayat_name = $required->form3_id1;
         $t3->Hamlet_name = $required->form3_id2;
+        $t3->Block_name = $required->form3_id16;
         $t3->Health_complexes = $required->form3_id3;
         $t3->Location = $required->form3_id4;
         $t3->Fully_functional = $required->form3_id5;
@@ -699,6 +715,7 @@ class TableController extends Controller
         $t4 = table4::find($required -> id);
         $t4->Panchayat_name = $required->form4_id1;
         $t4->Hamlet_name = $required->form4_id2;
+        $t4->Block_name = $required->form4_id18;
         $t4->School_name = $required->form4_id3;
         $t4->S_has_toilet = $required->form4_id4;
         $t4->Bstudent_toilet = $required->form4_id5;
@@ -724,6 +741,7 @@ class TableController extends Controller
         $t5 = table5::find($required -> id);
         $t5->Panchayat_name = $required->form5_id1;
         $t5->Hamlet_name = $required->form5_id2;
+        $t5->Block_name = $required->form5_id19;
         $t5->Ntemple = $required->form5_id3;
         $t5->Toilet_in_temple = $required->form5_id4;
         $t5->General_toilet_temple = $required->form5_id5;
@@ -749,6 +767,7 @@ class TableController extends Controller
 
         $t6 = table6::find($required -> id);
         $t6->Panchayat_name = $required->form6_id1;
+        $t6->Block_name = $required->form6_id10;
         $t6->Nhamelet = $required->form6_id2;
         $t6->Nschool = $required->form6_id3;
         $t6->SToilet_in_school = $required->form6_id4;
@@ -767,6 +786,7 @@ class TableController extends Controller
 
         $t7 = table7::find($required -> id);
         $t7->Panchayat_name = $required->form7_id1;
+        $t7->Block_name = $required->form7_id14;
         $t7->Garbage_process = $required->form7_id2;
         $t7->Nengaged_collectors = $required->form7_id3;
         $t7->Collected_volume = $required->form7_id4;
@@ -789,6 +809,7 @@ class TableController extends Controller
         $t8 = table8::find($required -> id);
         $t8->Panchayat_name = $required->form8_id1;
         $t8->Hamlet_name = $required->form8_id2;
+        $t8->Block_name = $required->form8_id32;
         $t8->Nhouse = $required->form8_id3;
         $t8->Ncleaner = $required->form8_id4;
         $t8->Tgood_condition = $required->form8_id5;
@@ -828,6 +849,7 @@ class TableController extends Controller
         $t9 = table9::find($required -> id);
         $t9->Panchayat_name = $required->form9_id1;
         $t9->Hamlet_name = $required->form9_id2;
+        $t9->Block_name = $required->form9_id12;
         $t9->Ncleaner = $required->form9_id3;
         $t9->Cplace_name = $required->form9_id4;
         $t9->Clocation = $required->form9_id5;
@@ -847,6 +869,7 @@ class TableController extends Controller
         $t10 = table10::find($required -> id);
         $t10->Panchayat_name = $required->form10_id1;
         $t10->Hamlet_name = $required->form10_id2;
+        $t10->Block_name = $required->form10_id38;
         $t10->Nstreet = $required->form10_id3;
         $t10->Mhouse = $required->form10_id4;
         $t10->Whome_garden = $required->form10_id5;
@@ -891,6 +914,7 @@ class TableController extends Controller
 
         $t11 = table11::find($required -> id);
         $t11->Panchayat_name = $required->form11_id1;
+        $t11->Block_name = $required->form11_id17;
         $t11->Detail_of_work = $required->form11_id2;
         $t11->Total_amount_required = $required->form11_id3;
         $t11->MGNREGS = $required->form11_id4;

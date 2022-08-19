@@ -21,6 +21,7 @@
 
                                 <th>Id</th>
                                 <th>Panchayat_name</th>
+                                <th>Block_name</th>
                                 <th>Total_No.of_Hamlets</th>
                                 <th>Total_No.of_Schools</th>
                                 <th>Toilet_Facility_Provided_Schools</th>
@@ -51,6 +52,7 @@
 
                                 <th class="th">Id</th>
                                 <th class="th">Panchayat_name</th>
+                                <th class="th">Block_name</th>
                                 <th class="th">Total_No.of_Hamlets</th>
                                 <th class="th">Total_No.of_Schools</th>
                                 <th class="th">Toilet_Facility_Provided_Schools</th>
@@ -83,6 +85,7 @@
                                         </td>
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Nhamelet']}}</td>
                                         <td>{{ $value['Nschool']}}</td>
                                         <td>{{ $value['SToilet_in_school']}}</td>
@@ -101,6 +104,7 @@
 
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Nhamelet']}}</td>
                                         <td>{{ $value['Nschool']}}</td>
                                         <td>{{ $value['SToilet_in_school']}}</td>
@@ -123,6 +127,7 @@
                                         </td>
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Nhamelet']}}</td>
                                         <td>{{ $value['Nschool']}}</td>
                                         <td>{{ $value['SToilet_in_school']}}</td>

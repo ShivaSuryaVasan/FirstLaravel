@@ -22,6 +22,13 @@
                             </div>
 
                             <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form8_id32" value="{{ $value['Hamlet_name'] }}" placeholder="Block Name..">
+                            </div>
+
+                            <div class="form-group col-md-6">
                                 <label for="form8_id">Total No.of House</label>
                             </div>
                             <div class="form-group col-md-3">
@@ -161,17 +168,45 @@
                                 <input type="number" class="form-control" name="form8_id20" value="{{ $value['Eneeded'] }}" placeholder="Count..">
                             </div>
 
-                            <div class="form-group col-md-6" style="margin-right:1px;">
+                            <!-- <div class="form-group col-md-6" style="margin-right:1px;">
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form8_id21">
                                     <input class="form-check-input" type="checkbox" value="Yes" name="form8_id21"
+                                    <?php 
+                                        // if($value['Other_vehicle']=="Yes"){
+                                        //     echo "checked";
+                                        // }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="defaultCheck1">Are There any other Vehicle</label>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group col-md-12"></div>
+                            <div class="form-group col-md-6">
+                                <label class="form-check-label" for="form0_id">Are There any other Vehicle :</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form8_id21" id="form8_id21" value="Yes"
                                     <?php 
                                         if($value['Other_vehicle']=="Yes"){
                                             echo "checked";
                                         }
                                     ?>
                                     >
-                                    <label class="form-check-label" for="defaultCheck1">Are There any other Vehicle</label>
+                                    <label class="form-check-label" for="form0_id">Yes, There are other Vehicle</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form8_id21" value="No"
+                                    <?php 
+                                        if($value['Other_vehicle']=="No"){
+                                            echo "checked";
+                                        }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
                             
@@ -250,19 +285,48 @@
                                 <input type="number" class="form-control" name="form8_id30" value="{{ $value['Vcompletely_damaged'] }}" placeholder="Count..">
                             </div>
 
-                            <div class="form-group col-md-6" style="margin-right:1px;">
+                            <!-- <div class="form-group col-md-6" style="margin-right:1px;">
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form8_id31">
                                     <input class="form-check-input" type="checkbox" value="Yes" name="form8_id31"
+                                    <?php 
+                                        // if($value['Is_earthworm']=="Yes"){
+                                        //     echo "checked";
+                                        // }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="defaultCheck1">Is Earthworm Left in Use</label>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group col-md-12"></div>
+                            <div class="form-group col-md-6">
+                                <label class="form-check-label" for="form0_id">Is Earthworm Left in Use :</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form8_id31" id="form8_id31" value="Yes"
                                     <?php 
                                         if($value['Is_earthworm']=="Yes"){
                                             echo "checked";
                                         }
                                     ?>
                                     >
-                                    <label class="form-check-label" for="defaultCheck1">Is Earthworm Left in Use</label>
+                                    <label class="form-check-label" for="form0_id">Yes, Earthworm Left in Use</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form8_id31" value="No"
+                                    <?php 
+                                        if($value['Is_earthworm']=="No"){
+                                            echo "checked";
+                                        }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
+
                             <div class="form-group col-md-3"></div>
 
                             <div style="margin-bottom:2em;margin-left:2em;">

@@ -20,7 +20,21 @@ use App\Http\Controllers\Auth\LoginController;
 */
 
 Route::get('/', function () {
-    return view('auth.login');
+
+    if(Auth::user()){
+
+        if(Auth::user()->role == 'superadmin'){
+            return view('superadmin.index');
+        }elseif(Auth::user()->role == 'admin'){
+            return view('admin.index');
+        }else{
+            return view('user.index');
+        }
+
+    }else{
+        return view('auth.login');
+    }
+    
 });
 
 Auth::routes();

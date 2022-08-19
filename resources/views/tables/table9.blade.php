@@ -36,10 +36,17 @@
                             </div>
 
                             <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form9_id12" placeholder="Block Name..">
+                            </div>
+
+                            <div class="form-group col-md-6">
                                 <label for="form9_id">Cleanliness Members Count</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form9_id3" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form9_id3" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6" style="text-align:center;margin-right:1px;">
@@ -66,7 +73,7 @@
                                 <label for="form9_id">Garbage Collected from Distance</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form9_id6" placeholder="Distance..">
+                                <input type="number" min="0" class="form-control" name="form9_id6" placeholder="Distance..">
                             </div>
                             
                             <div class="form-group col-md-6" style="text-align:center;margin-right:1px;">
@@ -86,7 +93,7 @@
                                 <label for="form9_id">Garbage Collected from Distance</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form9_id8" placeholder="Distance..">
+                                <input type="number" min="0" class="form-control" name="form9_id8" placeholder="Distance..">
                             </div>
                             <div class="form-group col-md-6" style="text-align:center;margin-right:1px;">
                                 <label for="form9_id">Vermi Compost:</label>
@@ -105,7 +112,7 @@
                                 <label for="form9_id">Urgakulli from Distance</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form9_id10" placeholder="Distance..">
+                                <input type="number" min="0" class="form-control" name="form9_id10" placeholder="Distance..">
                             </div>
 
                             <div class="form-group col-md-12" >

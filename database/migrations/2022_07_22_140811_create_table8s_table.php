@@ -17,6 +17,7 @@ class CreateTable8sTable extends Migration
             $table->id();
             $table->string('Panchayat_name');
             $table->string('Hamlet_name');
+            $table->string('Block_name')->nullable();
             $table->integer('Nhouse')->nullable();
             $table->integer('Ncleaner')->nullable();
             $table->integer('Tgood_condition')->nullable();

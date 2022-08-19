@@ -21,6 +21,7 @@
 
                                 <th>Id</th>
                                 <th>Panchayat_Name</th>
+                                <th>Block_name</th>
                                 <th>Garbage_Process_of_Days</th>
                                 <th>No.of_Engaged_Garbage_Collectors</th>
                                 <th>Collected_Garbage_Volume</th>
@@ -54,6 +55,7 @@
 
                                 <th class="th">Id</th>
                                 <th class="th">Panchayat_Name</th>
+                                <th class="th">Block_name</th>
                                 <th class="th">Garbage_Process_of_Days</th>
                                 <th class="th">No.of_Engaged_Garbage_Collectors</th>
                                 <th class="th">Collected_Garbage_Volume</th>
@@ -89,6 +91,7 @@
                                         </td>
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Garbage_process']}}</td>
                                         <td>{{ $value['Nengaged_collectors']}}</td>
                                         <td>{{ $value['Collected_volume']}}</td>
@@ -110,6 +113,7 @@
 
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Garbage_process']}}</td>
                                         <td>{{ $value['Nengaged_collectors']}}</td>
                                         <td>{{ $value['Collected_volume']}}</td>
@@ -135,6 +139,7 @@
                                         </td>
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Garbage_process']}}</td>
                                         <td>{{ $value['Nengaged_collectors']}}</td>
                                         <td>{{ $value['Collected_volume']}}</td>

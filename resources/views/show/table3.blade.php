@@ -21,7 +21,8 @@
 
                                 <th>Id</th>
                                 <th>Panchayat_Name</th>
-                                <th>Hamlet_Name</th>
+                                <th>Hamlet_name</th>
+                                <th>Block_name</th>
                                 <th>Health_Complexes</th>
                                 <th>Location</th>
                                 <th>Fully_Functional</th>
@@ -57,6 +58,7 @@
                                 <th class="th">Id</th>
                                 <th class="th">Panchayat_Name</th>
                                 <th class="th">Hamlet_Name</th>
+                                <th class="th">Block_name</th>
                                 <th class="th">Health_Complexes</th>
                                 <th class="th">Location</th>
                                 <th class="th">Fully_Functional</th>
@@ -94,6 +96,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Health_complexes']}}</td>
                                         <td>{{ $value['Location']}}</td>
                                         <td>{{ $value['Fully_functional']}}</td>
@@ -117,6 +120,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Health_complexes']}}</td>
                                         <td>{{ $value['Location']}}</td>
                                         <td>{{ $value['Fully_functional']}}</td>
@@ -144,6 +148,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Health_complexes']}}</td>
                                         <td>{{ $value['Location']}}</td>
                                         <td>{{ $value['Fully_functional']}}</td>

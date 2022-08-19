@@ -17,6 +17,7 @@ class CreateTable4sTable extends Migration
             $table->id();
             $table->string('Panchayat_name');
             $table->string('Hamlet_name');
+            $table->string('Block_name')->nullable();
             $table->string('School_name')->nullable();
             $table->string('S_has_toilet')->nullable();
             $table->integer('Bstudent_toilet')->nullable();

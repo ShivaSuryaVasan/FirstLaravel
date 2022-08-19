@@ -21,6 +21,13 @@
                                 <input type="text" class="form-control" name="form4_id2" value="{{ $value['Hamlet_name'] }}" placeholder="Hamlet Name..">
                             </div>
 
+                            <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form4_id18" value="{{ $value['Hamlet_name'] }}" placeholder="Block Name..">
+                            </div>
+
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
                                 <label for="form4_id">Details of Schools Toilet</label>
                             </div>
@@ -32,17 +39,45 @@
                                 <input type="text" class="form-control" name="form4_id3" value="{{ $value['School_name'] }}" placeholder="Name..">
                             </div>
 
-                            <div class="form-group col-md-12" >
+                            <!-- <div class="form-group col-md-12" >
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form4_id4">
                                     <input class="form-check-input" type="checkbox" value="Yes" name="form4_id4"
+                                    <?php 
+                                        // if($value['S_has_toilet'] == "Yes"){
+                                        //     echo "checked";
+                                        // }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="form4_id">Is There a Toilet<label>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group col-md-12"></div>
+                            <div class="form-group col-md-6">
+                                <label class="form-check-label" for="form0_id">Is There a Toilet :</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form4_id4" id="form4_id4" value="Yes"
                                     <?php 
                                         if($value['S_has_toilet'] == "Yes"){
                                             echo "checked";
                                         }
                                     ?>
                                     >
-                                    <label class="form-check-label" for="form4_id">Is There a Toilet<label>
+                                    <label class="form-check-label" for="form0_id">Yes, There is a Toilet</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form4_id4" value="No"
+                                    <?php 
+                                        if($value['S_has_toilet'] == "No"){
+                                            echo "checked";
+                                        }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
 
@@ -118,31 +153,87 @@
                                 <input type="text" class="form-control" name="form4_id12" value="{{ $value['Anganwadi_name'] }}" placeholder="Name..">
                             </div>
                             
-                            <div class="form-group col-md-12" >
+                            <!-- <div class="form-group col-md-12" >
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form4_id13">
                                     <input class="form-check-input" type="checkbox" value="Yes" name="form4_id13"
+                                    <?php 
+                                        // if($value['A_has_toilet'] == "Yes"){
+                                        //     echo "checked";
+                                        // }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="defaultCheck1">Is There a Toilet<label>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group col-md-12"></div>
+                            <div class="form-group col-md-6">
+                                <label class="form-check-label" for="form0_id">Is There a Toilet :</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form4_id13" id="form4_id13" value="Yes"
                                     <?php 
                                         if($value['A_has_toilet'] == "Yes"){
                                             echo "checked";
                                         }
                                     ?>
                                     >
-                                    <label class="form-check-label" for="defaultCheck1">Is There a Toilet<label>
+                                    <label class="form-check-label" for="form0_id">Yes, There is a Toilet</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form4_id13" value="No"
+                                    <?php 
+                                        if($value['A_has_toilet'] == "No"){
+                                            echo "checked";
+                                        }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
 
-                            <div class="form-group col-md-12" >
+                            <!-- <div class="form-group col-md-12" >
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form4_id14">
                                     <input class="form-check-input" type="checkbox" value="Yes" name="form4_id14"
+                                    <?php 
+                                        // if($value['A_is_toilet_use'] == "Yes"){
+                                        //     echo "checked";
+                                        // }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="defaultCheck1">Is Toilet in Use<label>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group col-md-12"></div>
+                            <div class="form-group col-md-6">
+                                <label class="form-check-label" for="form0_id">Is Toilet in Use :</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form4_id14" id="form4_id14" value="Yes"
                                     <?php 
                                         if($value['A_is_toilet_use'] == "Yes"){
                                             echo "checked";
                                         }
                                     ?>
                                     >
-                                    <label class="form-check-label" for="defaultCheck1">Is Toilet in Use<label>
+                                    <label class="form-check-label" for="form0_id">Yes, Toilet in Use</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form4_id14" value="No"
+                                    <?php 
+                                        if($value['A_is_toilet_use'] == "No"){
+                                            echo "checked";
+                                        }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
 
@@ -157,31 +248,87 @@
                                 <label for="form4_id">Panchayat Council Office</label>
                             </div>
 
-                            <div class="form-group col-md-12" >
+                            <!-- <div class="form-group col-md-12" >
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form4_id16">
                                     <input class="form-check-input" type="checkbox" value="Yes" name="form4_id16"
+                                    <?php 
+                                        // if($value['P_has_toilet'] == "Yes"){
+                                        //     echo "checked";
+                                        // }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="defaultCheck1">Is There a Toilet<label>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group col-md-12"></div>
+                            <div class="form-group col-md-6">
+                                <label class="form-check-label" for="form0_id">Is There a Toilet :</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form4_id16" id="form4_id16" value="Yes"
                                     <?php 
                                         if($value['P_has_toilet'] == "Yes"){
                                             echo "checked";
                                         }
                                     ?>
                                     >
-                                    <label class="form-check-label" for="defaultCheck1">Is There a Toilet<label>
+                                    <label class="form-check-label" for="form0_id">Yes, There a Toilet</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form4_id16" value="No"
+                                    <?php 
+                                        if($value['P_has_toilet'] == "No"){
+                                            echo "checked";
+                                        }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
 
-                            <div class="form-group col-md-12" >
+                            <!-- <div class="form-group col-md-12" >
                                 <div class="form-check">
                                     <input type="hidden" value="No" name="form4_id17">
                                     <input class="form-check-input" type="checkbox" value="Yes" name="form4_id17"
+                                    <?php 
+                                        // if($value['P_is_toilet_use'] == "Yes"){
+                                        //     echo "checked";
+                                        // }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="defaultCheck1">Is Toilet in Use<label>
+                                </div>
+                            </div> -->
+
+                            <div class="form-group col-md-12"></div>
+                            <div class="form-group col-md-6">
+                                <label class="form-check-label" for="form0_id">Is Toilet in Use :</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form4_id17" id="form4_id17" value="Yes"
                                     <?php 
                                         if($value['P_is_toilet_use'] == "Yes"){
                                             echo "checked";
                                         }
                                     ?>
                                     >
-                                    <label class="form-check-label" for="defaultCheck1">Is Toilet in Use<label>
+                                    <label class="form-check-label" for="form0_id">Yes, Toilet in Use</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="form4_id17" value="No"
+                                    <?php 
+                                        if($value['P_is_toilet_use'] == "No"){
+                                            echo "checked";
+                                        }
+                                    ?>
+                                    >
+                                    <label class="form-check-label" for="form0_id">No</label>
                                 </div>
                             </div>
                             

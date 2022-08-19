@@ -16,6 +16,14 @@
                                 <label for="panchayatname">Panchayat Name</label>
                                 <input type="text" class="form-control" name="form6_id1" value="{{ $value['Panchayat_name'] }}" placeholder="Place Name..">
                             </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form6_id11" value="{{ $value['Panchayat_name'] }}" placeholder="Block Name..">
+                            </div>
+                            
                             <div class="form-group col-md-4">
                                 <label for="inputnoofhamlets">Total No.of Hamlets</label>
                                 <input type="number" class="form-control" name="form6_id2" value="{{ $value['Nhamelet'] }}" placeholder="Count..">

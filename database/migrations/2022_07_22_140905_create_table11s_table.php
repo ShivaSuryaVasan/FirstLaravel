@@ -16,6 +16,7 @@ class CreateTable11sTable extends Migration
         Schema::create('table11s', function (Blueprint $table) {
             $table->id();
             $table->string('Panchayat_name');
+            $table->string('Block_name')->nullable();
             $table->string('Detail_of_work')->nullable();
             $table->integer('Total_amount_required')->nullable();
             $table->integer('MGNREGS')->nullable();

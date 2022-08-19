@@ -35,6 +35,13 @@
                                 <input type="text" class="form-control" name="form3_id2" placeholder="Hamlet Name..">
                             </div>
 
+                            <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form3_id16" placeholder="Block Name..">
+                            </div>
+
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
                                 <label for="form3_id">Details of Health Complexes</label>
                             </div>
@@ -67,21 +74,21 @@
                                 <label for="form3_id">Fully Functional</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form3_id5" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form3_id5" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form3_id">Partially Used</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form3_id6" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form3_id6" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form3_id">Not in Use</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form3_id7" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form3_id7" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -92,14 +99,14 @@
                                 <label for="form3_id">Dilapidated Premises</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form3_id8" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form3_id8" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form3_id">Totally Dilapidated Premises</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form3_id9" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form3_id9" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -110,21 +117,21 @@
                                 <label for="form3_id">User Group</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form3_id10" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form3_id10" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form3_id">Self Help Group</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form3_id11" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form3_id11" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form3_id">Village Panchayat</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form3_id12" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form3_id12" placeholder="Count..">
                             </div>
                             
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">

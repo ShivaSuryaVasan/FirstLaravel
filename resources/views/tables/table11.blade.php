@@ -34,6 +34,13 @@
                             </div>
 
                             <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form11_id17" placeholder="Block Name..">
+                            </div>
+
+                            <div class="form-group col-md-6">
                                 <label for="form11_id">Detail of Work</label>
                             </div>
                             <div class="form-group col-md-6">
@@ -46,7 +53,7 @@
                                 <label for="form11_id">Total Amount Required</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id3" placeholder="Rupees..">
+                                <input type="number" min="0" class="form-control" name="form11_id3" placeholder="Rupees..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;">
@@ -57,7 +64,7 @@
                                 <label for="form11_id">MGNREGS</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id4" placeholder="Count..">
+                                <input type="number" min="0" class="form-control" name="form11_id4" placeholder="Count..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -68,21 +75,21 @@
                                 <label for="form11_id">Tied Water Supply</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id5" placeholder="Rupees..">
+                                <input type="number" min="0" class="form-control" name="form11_id5" placeholder="Rupees..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form11_id">Tied Sanitation</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id6" placeholder="Rupees..">
+                                <input type="number" min="0" class="form-control" name="form11_id6" placeholder="Rupees..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form11_id">United</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id7" placeholder="Rupees..">
+                                <input type="number" min="0" class="form-control" name="form11_id7" placeholder="Rupees..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -93,21 +100,21 @@
                                 <label for="form11_id">Tied Water Supply</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id8" placeholder="Rupees..">
+                                <input type="number" min="0" class="form-control" name="form11_id8" placeholder="Rupees..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form11_id">Tied Sanitation</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id9" placeholder="Rupees..">
+                                <input type="number" min="0" class="form-control" name="form11_id9" placeholder="Rupees..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form11_id">United</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id10" placeholder="Rupees..">
+                                <input type="number" min="0" class="form-control" name="form11_id10" placeholder="Rupees..">
                             </div>
 
                             <div class="form-group col-md-6" style="margin-left:1px;text-align:center;">
@@ -118,28 +125,28 @@
                                 <label for="form11_id">Tied Water Supply</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id11" placeholder="Rupees..">
+                                <input type="number" min="0" class="form-control" name="form11_id11" placeholder="Rupees..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form11_id">Tied Sanitation</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id12" placeholder="Rupees..">
+                                <input type="number" min="0" class="form-control" name="form11_id12" placeholder="Rupees..">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="form11_id">United</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id13" placeholder="Rupees..">
+                                <input type="number" min="0" class="form-control" name="form11_id13" placeholder="Rupees..">
                             </div>
                             
                             <div class="form-group col-md-6">
                                 <label for="form11_id">SBM(G)</label>
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="number" class="form-control" name="form11_id14" placeholder="Ruppees..">
+                                <input type="number" min="0" class="form-control" name="form11_id14" placeholder="Ruppees..">
                             </div>
 
                             <div class="form-group col-md-6">

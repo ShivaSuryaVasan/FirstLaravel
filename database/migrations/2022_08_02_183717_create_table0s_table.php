@@ -17,6 +17,7 @@ class CreateTable0sTable extends Migration
             $table->id();
             $table->string('Panchayat_name');
             $table->string('Hamlet_name');
+            $table->string('Block_name')->nullable();
             $table->string('Head_of_household')->nullable();
             $table->integer('Door_no')->nullable();
             $table->integer('Family_members')->nullable();

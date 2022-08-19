@@ -20,6 +20,13 @@
                             </div>
 
                             <div class="form-group col-md-6">
+                                <label for="form0_id">Block Name</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="form7_id14" value="{{ $value['Panchayat_name'] }}" placeholder="Block Name..">
+                            </div>
+
+                            <div class="form-group col-md-6">
                                 <label for="form7_id">Garbage Censorship in Process of Days</label>
                             </div>
                             <div class="form-group col-md-3">

@@ -22,6 +22,7 @@
                                 <th>Id</th>
                                 <th>Panchayat_Name</th>
                                 <th>Hamlet_Name</th>
+                                <th>Block_name</th>
                                 <th>Cleanliness_Members_Count</th>
                                 <th>Compost_Pit_Garbage_Collection_Center</th>
                                 <th>Location</th>
@@ -53,6 +54,7 @@
                                 <th class="th">Id</th>
                                 <th class="th">Panchayat_Name</th>
                                 <th class="th">Hamlet_Name</th>
+                                <th class="th">Block_name</th>
                                 <th class="th">Cleanliness_Members_Count</th>
                                 <th class="th">Compost_Pit_Garbage_Collection_Center</th>
                                 <th class="th">Location</th>
@@ -86,6 +88,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Ncleaner']}}</td>
                                         <td>{{ $value['Cplace_name']}}</td>
                                         <td>{{ $value['Clocation']}}</td>
@@ -105,6 +108,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Ncleaner']}}</td>
                                         <td>{{ $value['Cplace_name']}}</td>
                                         <td>{{ $value['Clocation']}}</td>
@@ -128,6 +132,7 @@
                                         <td>{{ $value['id']}}</td>
                                         <td>{{ $value['Panchayat_name']}}</td>
                                         <td>{{ $value['Hamlet_name']}}</td>
+                                        <td>{{ $value['Block_name']}}</td>
                                         <td>{{ $value['Ncleaner']}}</td>
                                         <td>{{ $value['Cplace_name']}}</td>
                                         <td>{{ $value['Clocation']}}</td>
