@@ -66,7 +66,7 @@ class TableController extends Controller
         $t1->Npopulation_current = $required->form1_id7;
         $t1->Entered_id = session('user_id');
         $t1->save();
-        return redirect('table1')->with('msg','Data Inserted Successfully !');
+        return redirect('table1')->with('msg',' Inserted Successfully !');
 
     }
 
