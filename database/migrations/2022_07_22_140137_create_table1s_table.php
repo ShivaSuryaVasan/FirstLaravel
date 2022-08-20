@@ -18,7 +18,6 @@ class CreateTable1sTable extends Migration
             $table->id();
             $table->string('Panchayat_name');
             $table->string('Hamlet_name');
-            $table->string('Block_name')->nullable();
             $table->integer('Ntotal_houses')->nullable();
             $table->integer('Ntotal_shops')->nullable();
             $table->integer('Ntotal_companies')->nullable();

@@ -17,7 +17,6 @@ class CreateTable9sTable extends Migration
             $table->id();
             $table->string('Panchayat_name');
             $table->string('Hamlet_name');
-            $table->string('Block_name')->nullable();
             $table->integer('Ncleaner')->nullable();
             $table->string('Cplace_name')->nullable();
             $table->string('Clocation')->nullable();

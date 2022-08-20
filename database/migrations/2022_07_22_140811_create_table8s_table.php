@@ -16,8 +16,6 @@ class CreateTable8sTable extends Migration
         Schema::create('table8s', function (Blueprint $table) {
             $table->id();
             $table->string('Panchayat_name');
-            $table->string('Hamlet_name');
-            $table->string('Block_name')->nullable();
             $table->integer('Nhouse')->nullable();
             $table->integer('Ncleaner')->nullable();
             $table->integer('Tgood_condition')->nullable();

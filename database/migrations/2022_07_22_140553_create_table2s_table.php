@@ -17,7 +17,6 @@ class CreateTable2sTable extends Migration
             $table->id();
             $table->string('Panchayat_name');
             $table->string('Hamlet_name');
-            $table->string('Block_name')->nullable();
             $table->integer('Total_houses')->nullable();
             $table->integer('Population')->nullable();
             $table->integer('One_absorb_pit')->nullable();

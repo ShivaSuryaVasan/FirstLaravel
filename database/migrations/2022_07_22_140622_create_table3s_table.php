@@ -17,7 +17,6 @@ class CreateTable3sTable extends Migration
             $table->id();
             $table->string('Panchayat_name');
             $table->string('Hamlet_name');
-            $table->string('Block_name')->nullable();
             $table->string('Health_complexes')->nullable();
             $table->string('Location')->nullable();
             $table->integer('Fully_functional')->nullable();

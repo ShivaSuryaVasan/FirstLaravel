@@ -17,7 +17,6 @@ class CreateTable10sTable extends Migration
             $table->id();
             $table->string('Panchayat_name');
             $table->string('Hamlet_name');
-            $table->string('Block_name')->nullable();
             $table->integer('Nstreet')->nullable();
             $table->integer('Mhouse')->nullable();
             $table->integer('Whome_garden')->nullable();
