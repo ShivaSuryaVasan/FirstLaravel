@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            
+
         @if(session()->get('msg'))
             <div class="alert alert-success alert-dismissible fade show" role="alert">
                 {{ session()->get('msg') }}
@@ -44,7 +44,7 @@
 
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="role" value="superadmin">
-                                    <label class="form-check-label" for="form0_id">Superadmin</label>
+                                    <label class="form-check-label" for="form0_id">Superadminn</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="role" value="admin">
@@ -119,7 +119,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
-                                
+
                                 <a class="btn btn-primary" style="margin-left:2em;" href="\{{ Auth::user()->role }}" role="button">Back</a>
 
                             </div>
