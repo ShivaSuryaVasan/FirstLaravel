@@ -44,7 +44,7 @@
 
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="role" value="superadmin">
-                                    <label class="form-check-label" for="form0_id">Superadminn</label>
+                                    <label class="form-check-label" for="form0_id">Superadmin</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="role" value="admin">
