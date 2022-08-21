@@ -16,14 +16,14 @@ class CreateTable1sTable extends Migration
     {
         Schema::create('table1s', function (Blueprint $table) {
             $table->id();
-            $table->string('Panchayat_name');
-            $table->string('Hamlet_name');
-            $table->integer('Ntotal_houses')->nullable();
-            $table->integer('Ntotal_shops')->nullable();
-            $table->integer('Ntotal_companies')->nullable();
-            $table->integer('Npopulation_2011')->nullable();
-            $table->integer('Npopulation_current')->nullable();
-            $table->unsignedBigInteger('Entered_id');
+            $table->string('Panchayat_name',10);
+            $table->string('Hamlet_name',10);
+            $table->integer('Ntotal_houses',10)->nullable();
+            $table->integer('Ntotal_shops',10)->nullable();
+            $table->integer('Ntotal_companies',10)->nullable();
+            $table->integer('Npopulation_2011',10)->nullable();
+            $table->integer('Npopulation_current',10)->nullable();
+            $table->unsignedBigInteger('Entered_id',10);
             $table->timestamps();
         });
     }

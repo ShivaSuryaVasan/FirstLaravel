@@ -15,16 +15,16 @@ class CreateTable6sTable extends Migration
     {
         Schema::create('table6s', function (Blueprint $table) {
             $table->id();
-            $table->string('Panchayat_name');
-            $table->integer('Nhamelet');
-            $table->integer('Nschool')->nullable();
-            $table->integer('SToilet_in_school')->nullable();
-            $table->integer('Nanganwadi')->nullable();
-            $table->integer('AToilet_in_anganwadi')->nullable();
-            $table->integer('Ngovernment')->nullable();
-            $table->integer('GToilet_in_government')->nullable();
-            $table->integer('Other_public_places')->nullable();
-            $table->integer('PToilet_in_places')->nullable();
+            $table->string('Panchayat_name',10);
+            $table->integer('Nhamelet',10);
+            $table->integer('Nschool',10)->nullable();
+            $table->integer('SToilet_in_school',10)->nullable();
+            $table->integer('Nanganwadi',10)->nullable();
+            $table->integer('AToilet_in_anganwadi',10)->nullable();
+            $table->integer('Ngovernment',10)->nullable();
+            $table->integer('GToilet_in_government',10)->nullable();
+            $table->integer('Other_public_places',10)->nullable();
+            $table->integer('PToilet_in_places',10)->nullable();
             $table->integer('Entered_id');
             $table->timestamps();
         });

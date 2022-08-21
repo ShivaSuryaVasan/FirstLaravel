@@ -15,17 +15,17 @@ class CreateTable9sTable extends Migration
     {
         Schema::create('table9s', function (Blueprint $table) {
             $table->id();
-            $table->string('Panchayat_name');
-            $table->string('Hamlet_name');
-            $table->integer('Ncleaner')->nullable();
-            $table->string('Cplace_name')->nullable();
-            $table->string('Clocation')->nullable();
-            $table->string('Cdistance')->nullable();
-            $table->string('Slocation')->nullable();
-            $table->string('Sdistance')->nullable();
-            $table->string('Vlocation')->nullable();
-            $table->string('Vdistance')->nullable();
-            $table->string('Post_in_panchayat')->nullable();
+            $table->string('Panchayat_name',10);
+            $table->string('Hamlet_name',10);
+            $table->integer('Ncleaner',10)->nullable();
+            $table->string('Cplace_name',10)->nullable();
+            $table->string('Clocation',10)->nullable();
+            $table->string('Cdistance',10)->nullable();
+            $table->string('Slocation',10)->nullable();
+            $table->string('Sdistance',10)->nullable();
+            $table->string('Vlocation',10)->nullable();
+            $table->string('Vdistance',10)->nullable();
+            $table->string('Post_in_panchayat',10)->nullable();
             $table->integer('Entered_id');
             $table->timestamps();
         });

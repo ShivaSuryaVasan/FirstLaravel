@@ -14,7 +14,7 @@ class AddBlockNameToTable7Table extends Migration
     public function up()
     {
         Schema::table('table7s', function (Blueprint $table) {
-            $table ->string('Block_name')->nullable();
+            $table ->string('Block_name',10)->nullable();
         });
     }
 
